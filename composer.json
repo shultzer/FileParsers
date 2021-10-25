@@ -1,0 +1,14 @@
+{
+  "require": {
+    "symfony/var-dumper": "^4.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/Classes/"
+    ],
+    "psr-4": {
+      "Classes\\": "/src/Classes/",
+      "Interfaces\\": "src/Interfaces/"
+    }
+  }
+}
